@@ -262,7 +262,7 @@
 				DEVELOPMENT_TEAM = 7S2FZ3L694;
 				INFOPLIST_FILE = Profnastil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil;
+				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +275,7 @@
 				DEVELOPMENT_TEAM = 7S2FZ3L694;
 				INFOPLIST_FILE = Profnastil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil;
+				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
