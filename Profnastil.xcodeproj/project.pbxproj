@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490279F21FB2D4E2000A4D90 /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279F11FB2D4E2000A4D90 /* CatalogTableViewCell.swift */; };
+		490279F41FB2D769000A4D90 /* KrovlyaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279F31FB2D769000A4D90 /* KrovlyaTableViewController.swift */; };
+		490279F61FB2D8FD000A4D90 /* MaterialsKrovlya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279F51FB2D8FD000A4D90 /* MaterialsKrovlya.swift */; };
+		490279F81FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279F71FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift */; };
+		490279FA1FB2F0AE000A4D90 /* flow_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 490279F91FB2F0AE000A4D90 /* flow_bold.otf */; };
+		490279FC1FB2F0B8000A4D90 /* pt-sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */; };
+		490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */; };
 		4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A62B1F43011700AB0B90 /* AppDelegate.swift */; };
-		4994A62E1F43011700AB0B90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A62D1F43011700AB0B90 /* ViewController.swift */; };
 		4994A6311F43011700AB0B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A62F1F43011700AB0B90 /* Main.storyboard */; };
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
 		4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */; };
+		4994A63E1F430E8600AB0B90 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490279F11FB2D4E2000A4D90 /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
+		490279F31FB2D769000A4D90 /* KrovlyaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrovlyaTableViewController.swift; sourceTree = "<group>"; };
+		490279F51FB2D8FD000A4D90 /* MaterialsKrovlya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialsKrovlya.swift; sourceTree = "<group>"; };
+		490279F71FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrovlyaTableViewCell.swift; sourceTree = "<group>"; };
+		490279F91FB2F0AE000A4D90 /* flow_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = flow_bold.otf; sourceTree = "<group>"; };
+		490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pt-sans.ttf"; sourceTree = "<group>"; };
+		490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfnastilTableViewController.swift; sourceTree = "<group>"; };
 		4994A6281F43011700AB0B90 /* Profnastil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profnastil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4994A62B1F43011700AB0B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4994A62D1F43011700AB0B90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4994A6301F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4994A6321F43011700AB0B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4994A6351F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4994A6371F43011700AB0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				4994A62B1F43011700AB0B90 /* AppDelegate.swift */,
-				4994A62D1F43011700AB0B90 /* ViewController.swift */,
 				4994A62F1F43011700AB0B90 /* Main.storyboard */,
 				4994A6321F43011700AB0B90 /* Assets.xcassets */,
 				4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */,
 				4994A6371F43011700AB0B90 /* Info.plist */,
+				4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */,
+				490279F11FB2D4E2000A4D90 /* CatalogTableViewCell.swift */,
+				490279F31FB2D769000A4D90 /* KrovlyaTableViewController.swift */,
+				490279F51FB2D8FD000A4D90 /* MaterialsKrovlya.swift */,
+				490279F71FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift */,
+				490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */,
+				490279F91FB2F0AE000A4D90 /* flow_bold.otf */,
+				490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -91,12 +112,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Blurry Rabbit";
 				TargetAttributes = {
 					4994A6271F43011600AB0B90 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7S2FZ3L694;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490279FC1FB2F0B8000A4D90 /* pt-sans.ttf in Resources */,
+				490279FA1FB2F0AE000A4D90 /* flow_bold.otf in Resources */,
 				4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */,
 				4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */,
 				4994A6311F43011700AB0B90 /* Main.storyboard in Resources */,
@@ -137,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4994A62E1F43011700AB0B90 /* ViewController.swift in Sources */,
+				490279F81FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift in Sources */,
+				490279F41FB2D769000A4D90 /* KrovlyaTableViewController.swift in Sources */,
+				490279F21FB2D4E2000A4D90 /* CatalogTableViewCell.swift in Sources */,
+				490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */,
+				4994A63E1F430E8600AB0B90 /* CatalogTableViewController.swift in Sources */,
+				490279F61FB2D8FD000A4D90 /* MaterialsKrovlya.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,7 +202,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -181,7 +212,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -222,7 +258,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -230,7 +268,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -264,7 +307,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -277,7 +321,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -300,6 +345,7 @@
 				4994A63C1F43011700AB0B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

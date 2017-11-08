@@ -1,26 +1,209 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QX1-nq-xk9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="flow_bold.otf">
+            <string>Flow-Bold</string>
+        </array>
+        <array key="pt-sans.ttf">
+            <string>PTSans-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Компания Стан. Каталог Материалов-->
+        <scene sceneID="Iqq-bM-lC0">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="bZB-r9-Fbc" customClass="CatalogTableViewController" customModule="Profnastil" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="SZ7-p5-2gH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="catalogCell" id="vPp-8d-fIO" customClass="CatalogTableViewCell" customModule="Profnastil" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="1" width="375" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vPp-8d-fIO" id="gCd-YP-qAN">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-HS-tsE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="catalogNameLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hb-ql-XA3">
+                                            <rect key="frame" x="73" y="85" width="229" height="30"/>
+                                            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Flow-Bold" family="Flow" pointSize="30"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="gAh-HS-tsE" secondAttribute="bottom" constant="-0.5" id="115-cx-F5T"/>
+                                        <constraint firstItem="gAh-HS-tsE" firstAttribute="leading" secondItem="gCd-YP-qAN" secondAttribute="leading" id="K2t-y7-lEW"/>
+                                        <constraint firstAttribute="trailing" secondItem="gAh-HS-tsE" secondAttribute="trailing" id="eGi-l7-FFe"/>
+                                        <constraint firstItem="0Hb-ql-XA3" firstAttribute="centerY" secondItem="gAh-HS-tsE" secondAttribute="centerY" id="jlA-CH-RPw"/>
+                                        <constraint firstItem="gAh-HS-tsE" firstAttribute="top" secondItem="gCd-YP-qAN" secondAttribute="top" id="qoF-q2-JDU"/>
+                                        <constraint firstItem="0Hb-ql-XA3" firstAttribute="centerX" secondItem="gAh-HS-tsE" secondAttribute="centerX" id="sO6-22-XTI"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="catalogImage" destination="gAh-HS-tsE" id="3yx-Kv-469"/>
+                                    <outlet property="catalogLabel" destination="0Hb-ql-XA3" id="oUd-W8-aIA"/>
+                                    <segue destination="Rnf-dR-AWh" kind="show" identifier="showMaterialKrovlya" id="q78-6V-gTF"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bZB-r9-Fbc" id="qVU-oq-lfd"/>
+                            <outlet property="delegate" destination="bZB-r9-Fbc" id="c4P-2e-fir"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Компания Стан. Каталог Материалов" largeTitleDisplayMode="never" id="fga-1S-ZzH">
+                        <barButtonItem key="backBarButtonItem" title="Каталог" id="e3i-WL-xcY"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0IS-WW-Q98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-567.20000000000005" y="-65.217391304347828"/>
+        </scene>
+        <!--Krovlya Table View Controller-->
+        <scene sceneID="u15-qk-P8f">
+            <objects>
+                <tableViewController id="Rnf-dR-AWh" customClass="KrovlyaTableViewController" customModule="Profnastil" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="130" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="FHH-Lf-Qdn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationLevel="20" indentationWidth="10" reuseIdentifier="krovlyaCell" id="Et2-Nq-mpW" customClass="KrovlyaTableViewCell" customModule="Profnastil" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="1" width="375" height="130"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Et2-Nq-mpW" id="Hty-51-CAL">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LlT-7R-zpU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fwo-Sx-Vcd">
+                                            <rect key="frame" x="16" y="21" width="343" height="98"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="krovlyaNameLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrE-0W-kQf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Flow-Bold" family="Flow" pointSize="30"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" text="krovlyaDetailLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZq-6U-dSd">
+                                                    <rect key="frame" x="0.0" y="40" width="343" height="58"/>
+                                                    <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="16"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="30"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="LlT-7R-zpU" secondAttribute="trailing" id="7Yi-PU-Fyo"/>
+                                        <constraint firstItem="Fwo-Sx-Vcd" firstAttribute="top" secondItem="Hty-51-CAL" secondAttribute="topMargin" constant="10" id="H19-xt-gDj"/>
+                                        <constraint firstItem="Fwo-Sx-Vcd" firstAttribute="leading" secondItem="Hty-51-CAL" secondAttribute="leadingMargin" id="MMx-eU-UTM"/>
+                                        <constraint firstAttribute="bottom" secondItem="LlT-7R-zpU" secondAttribute="bottom" id="Qko-XA-Wg7"/>
+                                        <constraint firstItem="Fwo-Sx-Vcd" firstAttribute="centerX" secondItem="Hty-51-CAL" secondAttribute="centerX" id="UaU-Da-wZH"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Fwo-Sx-Vcd" secondAttribute="bottom" id="Upl-rC-fdt"/>
+                                        <constraint firstItem="LlT-7R-zpU" firstAttribute="leading" secondItem="Hty-51-CAL" secondAttribute="leading" id="Zik-ff-PrY"/>
+                                        <constraint firstItem="LlT-7R-zpU" firstAttribute="top" secondItem="Hty-51-CAL" secondAttribute="top" id="uVV-zV-mGZ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="krovlyaDetailLabel" destination="YZq-6U-dSd" id="Do9-wO-4c7"/>
+                                    <outlet property="krovlyaImage" destination="LlT-7R-zpU" id="88V-LR-7sq"/>
+                                    <outlet property="krovlyaNameLabel" destination="VrE-0W-kQf" id="1KJ-zg-vZz"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Rnf-dR-AWh" id="xS0-Ag-HWM"/>
+                            <outlet property="delegate" destination="Rnf-dR-AWh" id="TJv-vR-20U"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZO6-ze-ksg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="-496"/>
+        </scene>
+        <!--Profnastil Table View Controller-->
+        <scene sceneID="QMD-zK-h57">
+            <objects>
+                <tableViewController id="4zg-Bh-JcL" customClass="ProfnastilTableViewController" customModule="Profnastil" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="O5U-QN-RaA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WFp-hU-8SE">
+                                <rect key="frame" x="0.0" y="1" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WFp-hU-8SE" id="jBy-sV-HpW">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4zg-Bh-JcL" id="oYo-t0-NKV"/>
+                            <outlet property="delegate" destination="4zg-Bh-JcL" id="mhZ-dc-ynK"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OO3-CJ-S4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="-495"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xI8-ri-e62">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QX1-nq-xk9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="De1-yc-m9Y">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bZB-r9-Fbc" kind="relationship" relationship="rootViewController" id="ZiH-DW-o4M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7H-bR-ipd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1258" y="-65"/>
         </scene>
     </scenes>
 </document>

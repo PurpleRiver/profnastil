@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Profnastil
-//
-//  Created by Blurry Rabbit on 15.08.17.
-//  Copyright © 2017 Blurry Rabbit. All rights reserved.
-//
 
 import UIKit
 
