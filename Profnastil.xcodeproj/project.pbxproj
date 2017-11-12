@@ -15,7 +15,7 @@
 		490279FC1FB2F0B8000A4D90 /* pt-sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */; };
 		490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */; };
 		49027A001FB3069D000A4D90 /* ProfnastilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279FF1FB3069D000A4D90 /* ProfnastilTableViewCell.swift */; };
-		49027A021FB30E21000A4D90 /* Profnastil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A011FB30E21000A4D90 /* Profnastil.swift */; };
+		49027A021FB30E21000A4D90 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A011FB30E21000A4D90 /* Product.swift */; };
 		49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A031FB35146000A4D90 /* CharacteristicViewController.swift */; };
 		49027A081FB6A68B000A4D90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49027A071FB6A68B000A4D90 /* Default-568h@2x.png */; };
 		4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A62B1F43011700AB0B90 /* AppDelegate.swift */; };
@@ -23,7 +23,6 @@
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
 		4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */; };
 		4994A63E1F430E8600AB0B90 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */; };
-		49CF5F821FB84942005DD8FF /* productDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF5F811FB84942005DD8FF /* productDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,7 @@
 		490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pt-sans.ttf"; sourceTree = "<group>"; };
 		490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfnastilTableViewController.swift; sourceTree = "<group>"; };
 		490279FF1FB3069D000A4D90 /* ProfnastilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfnastilTableViewCell.swift; sourceTree = "<group>"; };
-		49027A011FB30E21000A4D90 /* Profnastil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profnastil.swift; sourceTree = "<group>"; };
+		49027A011FB30E21000A4D90 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		49027A031FB35146000A4D90 /* CharacteristicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicViewController.swift; sourceTree = "<group>"; };
 		49027A071FB6A68B000A4D90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4994A6281F43011700AB0B90 /* Profnastil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profnastil.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +44,6 @@
 		4994A6351F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4994A6371F43011700AB0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
-		49CF5F811FB84942005DD8FF /* productDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +60,8 @@
 		49027A051FB6A45F000A4D90 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49027A011FB30E21000A4D90 /* Profnastil.swift */,
+				49027A011FB30E21000A4D90 /* Product.swift */,
 				490279F51FB2D8FD000A4D90 /* MaterialsKrovlya.swift */,
-				49CF5F811FB84942005DD8FF /* productDetail.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,7 +192,7 @@
 			files = (
 				490279F81FB2DDF4000A4D90 /* KrovlyaTableViewCell.swift in Sources */,
 				490279F41FB2D769000A4D90 /* KrovlyaTableViewController.swift in Sources */,
-				49027A021FB30E21000A4D90 /* Profnastil.swift in Sources */,
+				49027A021FB30E21000A4D90 /* Product.swift in Sources */,
 				490279F21FB2D4E2000A4D90 /* CatalogTableViewCell.swift in Sources */,
 				490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */,
 				4994A63E1F430E8600AB0B90 /* CatalogTableViewController.swift in Sources */,
@@ -203,7 +200,6 @@
 				490279F61FB2D8FD000A4D90 /* MaterialsKrovlya.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 				49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */,
-				49CF5F821FB84942005DD8FF /* productDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
