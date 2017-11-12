@@ -23,6 +23,7 @@
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
 		4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */; };
 		4994A63E1F430E8600AB0B90 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */; };
+		49CF5F821FB84942005DD8FF /* productDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF5F811FB84942005DD8FF /* productDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		4994A6351F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4994A6371F43011700AB0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4994A63D1F430E8600AB0B90 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
+		49CF5F811FB84942005DD8FF /* productDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				49027A011FB30E21000A4D90 /* Profnastil.swift */,
 				490279F51FB2D8FD000A4D90 /* MaterialsKrovlya.swift */,
+				49CF5F811FB84942005DD8FF /* productDetail.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -145,7 +148,7 @@
 				TargetAttributes = {
 					4994A6271F43011600AB0B90 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7S2FZ3L694;
+						DevelopmentTeam = 3FS8DHWRXQ;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
@@ -200,6 +203,7 @@
 				490279F61FB2D8FD000A4D90 /* MaterialsKrovlya.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 				49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */,
+				49CF5F821FB84942005DD8FF /* productDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,11 +340,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7S2FZ3L694;
+				DEVELOPMENT_TEAM = 3FS8DHWRXQ;
 				INFOPLIST_FILE = Profnastil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
+				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.comide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -354,11 +358,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7S2FZ3L694;
+				DEVELOPMENT_TEAM = 3FS8DHWRXQ;
 				INFOPLIST_FILE = Profnastil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.ru;
+				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.comide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
