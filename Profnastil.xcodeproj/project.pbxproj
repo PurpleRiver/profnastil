@@ -21,6 +21,19 @@
 		49599F031FBC206300F2A104 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F021FBC206200F2A104 /* Roboto-Regular.ttf */; };
 		49599F051FBC20AF00F2A104 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */; };
 		49599F071FBC20B400F2A104 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F061FBC20B400F2A104 /* Raleway-Thin.ttf */; };
+		49599F131FBC2F7600F2A104 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F091FBC2F7600F2A104 /* UIButtonX.swift */; };
+		49599F141FBC2F7600F2A104 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0A1FBC2F7600F2A104 /* UIImageViewX.swift */; };
+		49599F151FBC2F7600F2A104 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0B1FBC2F7600F2A104 /* UILabelX.swift */; };
+		49599F161FBC2F7600F2A104 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0C1FBC2F7600F2A104 /* UISliderX.swift */; };
+		49599F171FBC2F7600F2A104 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0D1FBC2F7600F2A104 /* UITextFieldX.swift */; };
+		49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0E1FBC2F7600F2A104 /* UIViewAnchorPoint.swift */; };
+		49599F191FBC2F7600F2A104 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F0F1FBC2F7600F2A104 /* UIViewControllerX.swift */; };
+		49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F101FBC2F7600F2A104 /* UIViewX.swift */; };
+		49599F1B1FBC2F7600F2A104 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F111FBC2F7600F2A104 /* UIViewXRadialGradient.swift */; };
+		49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F121FBC2F7600F2A104 /* UIVisualEffectViewX.swift */; };
+		49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */; };
+		49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */; };
+		49599F221FBC3F0700F2A104 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */; };
 		4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A62B1F43011700AB0B90 /* AppDelegate.swift */; };
 		4994A6311F43011700AB0B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A62F1F43011700AB0B90 /* Main.storyboard */; };
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
@@ -43,6 +56,19 @@
 		49599F021FBC206200F2A104 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		49599F061FBC20B400F2A104 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		49599F091FBC2F7600F2A104 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		49599F0A1FBC2F7600F2A104 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		49599F0B1FBC2F7600F2A104 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		49599F0C1FBC2F7600F2A104 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		49599F0D1FBC2F7600F2A104 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		49599F0E1FBC2F7600F2A104 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		49599F0F1FBC2F7600F2A104 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		49599F101FBC2F7600F2A104 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		49599F111FBC2F7600F2A104 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		49599F121FBC2F7600F2A104 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionOfProductViewController.swift; sourceTree = "<group>"; };
+		49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionImageViewController.swift; sourceTree = "<group>"; };
+		49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
 		4994A6281F43011700AB0B90 /* Profnastil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profnastil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4994A62B1F43011700AB0B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4994A6301F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +111,23 @@
 			path = Resorces;
 			sourceTree = "<group>";
 		};
+		49599F081FBC2F7600F2A104 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				49599F091FBC2F7600F2A104 /* UIButtonX.swift */,
+				49599F0A1FBC2F7600F2A104 /* UIImageViewX.swift */,
+				49599F0B1FBC2F7600F2A104 /* UILabelX.swift */,
+				49599F0C1FBC2F7600F2A104 /* UISliderX.swift */,
+				49599F0D1FBC2F7600F2A104 /* UITextFieldX.swift */,
+				49599F0E1FBC2F7600F2A104 /* UIViewAnchorPoint.swift */,
+				49599F0F1FBC2F7600F2A104 /* UIViewControllerX.swift */,
+				49599F101FBC2F7600F2A104 /* UIViewX.swift */,
+				49599F111FBC2F7600F2A104 /* UIViewXRadialGradient.swift */,
+				49599F121FBC2F7600F2A104 /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
 		4994A61F1F43011600AB0B90 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +148,7 @@
 		4994A62A1F43011700AB0B90 /* Profnastil */ = {
 			isa = PBXGroup;
 			children = (
+				49599F081FBC2F7600F2A104 /* DesignableX */,
 				49027A061FB6A4D0000A4D90 /* Resorces */,
 				49027A051FB6A45F000A4D90 /* Classes */,
 				4994A62B1F43011700AB0B90 /* AppDelegate.swift */,
@@ -118,6 +162,9 @@
 				49027A031FB35146000A4D90 /* CharacteristicViewController.swift */,
 				49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */,
 				49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */,
+				49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */,
+				49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */,
+				49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -202,16 +249,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */,
+				49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */,
 				490279F81FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift in Sources */,
+				49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */,
 				49B539CE1FB9A44F000785E4 /* CherepicaTableViewCell.swift in Sources */,
+				49599F131FBC2F7600F2A104 /* UIButtonX.swift in Sources */,
+				49599F171FBC2F7600F2A104 /* UITextFieldX.swift in Sources */,
 				490279F41FB2D769000A4D90 /* CatalogMenuTableViewController.swift in Sources */,
 				49027A021FB30E21000A4D90 /* Product.swift in Sources */,
+				49599F1B1FBC2F7600F2A104 /* UIViewXRadialGradient.swift in Sources */,
+				49599F161FBC2F7600F2A104 /* UISliderX.swift in Sources */,
 				49599F011FB9B6EA00F2A104 /* CherepicaTableViewController.swift in Sources */,
 				490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */,
+				49599F191FBC2F7600F2A104 /* UIViewControllerX.swift in Sources */,
 				49027A001FB3069D000A4D90 /* ProfnastilTableViewCell.swift in Sources */,
+				49599F221FBC3F0700F2A104 /* ProductPageViewController.swift in Sources */,
+				49599F151FBC2F7600F2A104 /* UILabelX.swift in Sources */,
 				490279F61FB2D8FD000A4D90 /* CatalogMenu.swift in Sources */,
+				49599F141FBC2F7600F2A104 /* UIImageViewX.swift in Sources */,
+				49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 				49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */,
+				49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
