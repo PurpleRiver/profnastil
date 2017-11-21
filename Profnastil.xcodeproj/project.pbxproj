@@ -15,8 +15,8 @@
 		490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */; };
 		49027A001FB3069D000A4D90 /* ProfnastilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490279FF1FB3069D000A4D90 /* ProfnastilTableViewCell.swift */; };
 		49027A021FB30E21000A4D90 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A011FB30E21000A4D90 /* Product.swift */; };
-		49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A031FB35146000A4D90 /* CharacteristicViewController.swift */; };
 		49027A081FB6A68B000A4D90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49027A071FB6A68B000A4D90 /* Default-568h@2x.png */; };
+		491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FD6401FC4184800E11CC1 /* productImageView.swift */; };
 		49599F011FB9B6EA00F2A104 /* CherepicaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */; };
 		49599F031FBC206300F2A104 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F021FBC206200F2A104 /* Roboto-Regular.ttf */; };
 		49599F051FBC20AF00F2A104 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */; };
@@ -50,8 +50,8 @@
 		490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfnastilTableViewController.swift; sourceTree = "<group>"; };
 		490279FF1FB3069D000A4D90 /* ProfnastilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfnastilTableViewCell.swift; sourceTree = "<group>"; };
 		49027A011FB30E21000A4D90 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		49027A031FB35146000A4D90 /* CharacteristicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicViewController.swift; sourceTree = "<group>"; };
 		49027A071FB6A68B000A4D90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		491FD6401FC4184800E11CC1 /* productImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productImageView.swift; sourceTree = "<group>"; };
 		49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherepicaTableViewController.swift; sourceTree = "<group>"; };
 		49599F021FBC206200F2A104 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
@@ -159,12 +159,12 @@
 				490279F71FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift */,
 				490279FD1FB3049E000A4D90 /* ProfnastilTableViewController.swift */,
 				490279FF1FB3069D000A4D90 /* ProfnastilTableViewCell.swift */,
-				49027A031FB35146000A4D90 /* CharacteristicViewController.swift */,
 				49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */,
 				49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */,
 				49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */,
 				49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */,
 				49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */,
+				491FD6401FC4184800E11CC1 /* productImageView.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -250,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */,
+				491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */,
 				49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */,
 				490279F81FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift in Sources */,
 				49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */,
@@ -270,7 +271,6 @@
 				49599F141FBC2F7600F2A104 /* UIImageViewX.swift in Sources */,
 				49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
-				49027A041FB35146000A4D90 /* CharacteristicViewController.swift in Sources */,
 				49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
