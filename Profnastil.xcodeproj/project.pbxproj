@@ -17,6 +17,9 @@
 		49027A021FB30E21000A4D90 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49027A011FB30E21000A4D90 /* Product.swift */; };
 		49027A081FB6A68B000A4D90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49027A071FB6A68B000A4D90 /* Default-568h@2x.png */; };
 		491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FD6401FC4184800E11CC1 /* productImageView.swift */; };
+		491FD6451FC6B8A100E11CC1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491FD6421FC6B89E00E11CC1 /* Roboto-Medium.ttf */; };
+		491FD6461FC6B8A100E11CC1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491FD6431FC6B89F00E11CC1 /* Roboto-Black.ttf */; };
+		491FD6471FC6B8A100E11CC1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491FD6441FC6B8A000E11CC1 /* Roboto-Bold.ttf */; };
 		49599F011FB9B6EA00F2A104 /* CherepicaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */; };
 		49599F031FBC206300F2A104 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F021FBC206200F2A104 /* Roboto-Regular.ttf */; };
 		49599F051FBC20AF00F2A104 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */; };
@@ -39,6 +42,8 @@
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
 		4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */; };
 		49B539CE1FB9A44F000785E4 /* CherepicaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */; };
+		49FC6E381FC92C61005DE3EE /* ContactsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */; };
+		49FC6E3A1FC93134005DE3EE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E391FC93134005DE3EE /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,9 @@
 		49027A011FB30E21000A4D90 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		49027A071FB6A68B000A4D90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		491FD6401FC4184800E11CC1 /* productImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productImageView.swift; sourceTree = "<group>"; };
+		491FD6421FC6B89E00E11CC1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		491FD6431FC6B89F00E11CC1 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		491FD6441FC6B8A000E11CC1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		49599F001FB9B6EA00F2A104 /* CherepicaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherepicaTableViewController.swift; sourceTree = "<group>"; };
 		49599F021FBC206200F2A104 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
@@ -76,6 +84,8 @@
 		4994A6351F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4994A6371F43011700AB0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherepicaTableViewCell.swift; sourceTree = "<group>"; };
+		49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCollectionViewCell.swift; sourceTree = "<group>"; };
+		49FC6E391FC93134005DE3EE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,9 @@
 				490279FB1FB2F0B8000A4D90 /* pt-sans.ttf */,
 				49599F061FBC20B400F2A104 /* Raleway-Thin.ttf */,
 				49599F041FBC20AE00F2A104 /* Raleway-Regular.ttf */,
+				491FD6431FC6B89F00E11CC1 /* Roboto-Black.ttf */,
+				491FD6441FC6B8A000E11CC1 /* Roboto-Bold.ttf */,
+				491FD6421FC6B89E00E11CC1 /* Roboto-Medium.ttf */,
 				490279F91FB2F0AE000A4D90 /* flow_bold.otf */,
 				49599F021FBC206200F2A104 /* Roboto-Regular.ttf */,
 				4994A6321F43011700AB0B90 /* Assets.xcassets */,
@@ -165,6 +178,8 @@
 				49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */,
 				49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */,
 				491FD6401FC4184800E11CC1 /* productImageView.swift */,
+				49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */,
+				49FC6E391FC93134005DE3EE /* ContactsViewController.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -230,10 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491FD6451FC6B8A100E11CC1 /* Roboto-Medium.ttf in Resources */,
 				490279FC1FB2F0B8000A4D90 /* pt-sans.ttf in Resources */,
+				491FD6471FC6B8A100E11CC1 /* Roboto-Bold.ttf in Resources */,
 				49599F031FBC206300F2A104 /* Roboto-Regular.ttf in Resources */,
 				490279FA1FB2F0AE000A4D90 /* flow_bold.otf in Resources */,
 				49599F071FBC20B400F2A104 /* Raleway-Thin.ttf in Resources */,
+				491FD6461FC6B8A100E11CC1 /* Roboto-Black.ttf in Resources */,
 				49599F051FBC20AF00F2A104 /* Raleway-Regular.ttf in Resources */,
 				4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */,
 				4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */,
@@ -251,6 +269,7 @@
 			files = (
 				49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */,
 				491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */,
+				49FC6E381FC92C61005DE3EE /* ContactsCollectionViewCell.swift in Sources */,
 				49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */,
 				490279F81FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift in Sources */,
 				49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */,
@@ -272,6 +291,7 @@
 				49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 				49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */,
+				49FC6E3A1FC93134005DE3EE /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
