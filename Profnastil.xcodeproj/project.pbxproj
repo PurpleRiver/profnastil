@@ -42,8 +42,11 @@
 		4994A6331F43011700AB0B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6321F43011700AB0B90 /* Assets.xcassets */; };
 		4994A6361F43011700AB0B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A6341F43011700AB0B90 /* LaunchScreen.storyboard */; };
 		49B539CE1FB9A44F000785E4 /* CherepicaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */; };
-		49FC6E381FC92C61005DE3EE /* ContactsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */; };
-		49FC6E3A1FC93134005DE3EE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E391FC93134005DE3EE /* ContactsViewController.swift */; };
+		49FC6E3C1FCE7DC0005DE3EE /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E3B1FCE7DC0005DE3EE /* ContactsTableViewController.swift */; };
+		49FC6E3E1FCE87C2005DE3EE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E3D1FCE87C2005DE3EE /* Store.swift */; };
+		49FC6E421FCE8B1D005DE3EE /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E411FCE8B1D005DE3EE /* StoreTableViewCell.swift */; };
+		49FC6E441FCEBA55005DE3EE /* StoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E431FCEBA55005DE3EE /* StoreDetailViewController.swift */; };
+		49FC6E461FCEC268005DE3EE /* StoreDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6E451FCEC268005DE3EE /* StoreDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,8 +87,11 @@
 		4994A6351F43011700AB0B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4994A6371F43011700AB0B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B539CD1FB9A44F000785E4 /* CherepicaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherepicaTableViewCell.swift; sourceTree = "<group>"; };
-		49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCollectionViewCell.swift; sourceTree = "<group>"; };
-		49FC6E391FC93134005DE3EE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		49FC6E3B1FCE7DC0005DE3EE /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		49FC6E3D1FCE87C2005DE3EE /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		49FC6E411FCE8B1D005DE3EE /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
+		49FC6E431FCEBA55005DE3EE /* StoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailViewController.swift; sourceTree = "<group>"; };
+		49FC6E451FCEC268005DE3EE /* StoreDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 			children = (
 				49027A011FB30E21000A4D90 /* Product.swift */,
 				490279F51FB2D8FD000A4D90 /* CatalogMenu.swift */,
+				49FC6E3D1FCE87C2005DE3EE /* Store.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,8 +185,10 @@
 				49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */,
 				49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */,
 				491FD6401FC4184800E11CC1 /* productImageView.swift */,
-				49FC6E371FC92C61005DE3EE /* ContactsCollectionViewCell.swift */,
-				49FC6E391FC93134005DE3EE /* ContactsViewController.swift */,
+				49FC6E3B1FCE7DC0005DE3EE /* ContactsTableViewController.swift */,
+				49FC6E411FCE8B1D005DE3EE /* StoreTableViewCell.swift */,
+				49FC6E431FCEBA55005DE3EE /* StoreDetailViewController.swift */,
+				49FC6E451FCEC268005DE3EE /* StoreDetailTableViewCell.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -269,9 +278,9 @@
 			files = (
 				49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */,
 				491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */,
-				49FC6E381FC92C61005DE3EE /* ContactsCollectionViewCell.swift in Sources */,
 				49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */,
 				490279F81FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift in Sources */,
+				49FC6E461FCEC268005DE3EE /* StoreDetailTableViewCell.swift in Sources */,
 				49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */,
 				49B539CE1FB9A44F000785E4 /* CherepicaTableViewCell.swift in Sources */,
 				49599F131FBC2F7600F2A104 /* UIButtonX.swift in Sources */,
@@ -281,7 +290,9 @@
 				49599F1B1FBC2F7600F2A104 /* UIViewXRadialGradient.swift in Sources */,
 				49599F161FBC2F7600F2A104 /* UISliderX.swift in Sources */,
 				49599F011FB9B6EA00F2A104 /* CherepicaTableViewController.swift in Sources */,
+				49FC6E421FCE8B1D005DE3EE /* StoreTableViewCell.swift in Sources */,
 				490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */,
+				49FC6E441FCEBA55005DE3EE /* StoreDetailViewController.swift in Sources */,
 				49599F191FBC2F7600F2A104 /* UIViewControllerX.swift in Sources */,
 				49027A001FB3069D000A4D90 /* ProfnastilTableViewCell.swift in Sources */,
 				49599F221FBC3F0700F2A104 /* ProductPageViewController.swift in Sources */,
@@ -290,8 +301,9 @@
 				49599F141FBC2F7600F2A104 /* UIImageViewX.swift in Sources */,
 				49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
+				49FC6E3E1FCE87C2005DE3EE /* Store.swift in Sources */,
 				49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */,
-				49FC6E3A1FC93134005DE3EE /* ContactsViewController.swift in Sources */,
+				49FC6E3C1FCE7DC0005DE3EE /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
