@@ -39,6 +39,10 @@
 		49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */; };
 		49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */; };
 		49599F221FBC3F0700F2A104 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */; };
+		4971D0351FD1185D006D6501 /* StaketnikTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D0341FD1185D006D6501 /* StaketnikTableViewController.swift */; };
+		4971D0371FD1187E006D6501 /* StaketnikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D0361FD1187E006D6501 /* StaketnikTableViewCell.swift */; };
+		4971D0391FD13B52006D6501 /* VodostokTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D0381FD13B52006D6501 /* VodostokTableViewCell.swift */; };
+		4971D03B1FD13B68006D6501 /* VodostokTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971D03A1FD13B68006D6501 /* VodostokTableViewController.swift */; };
 		497C5B991FD003160048D760 /* FalsePanelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C5B981FD003160048D760 /* FalsePanelTableViewController.swift */; };
 		4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994A62B1F43011700AB0B90 /* AppDelegate.swift */; };
 		4994A6311F43011700AB0B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994A62F1F43011700AB0B90 /* Main.storyboard */; };
@@ -87,6 +91,10 @@
 		49599F1D1FBC37B400F2A104 /* DescriptionOfProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionOfProductViewController.swift; sourceTree = "<group>"; };
 		49599F1F1FBC3B3700F2A104 /* DescriptionImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionImageViewController.swift; sourceTree = "<group>"; };
 		49599F211FBC3F0700F2A104 /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		4971D0341FD1185D006D6501 /* StaketnikTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaketnikTableViewController.swift; sourceTree = "<group>"; };
+		4971D0361FD1187E006D6501 /* StaketnikTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaketnikTableViewCell.swift; sourceTree = "<group>"; };
+		4971D0381FD13B52006D6501 /* VodostokTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodostokTableViewCell.swift; sourceTree = "<group>"; };
+		4971D03A1FD13B68006D6501 /* VodostokTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodostokTableViewController.swift; sourceTree = "<group>"; };
 		497C5B981FD003160048D760 /* FalsePanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalsePanelTableViewController.swift; sourceTree = "<group>"; };
 		4994A6281F43011700AB0B90 /* Profnastil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profnastil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4994A62B1F43011700AB0B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -205,6 +213,10 @@
 				49F5A6901FD0081400A0BEDF /* FalsePanelTableViewCell.swift */,
 				493721DA1FD02D25008D5DE1 /* SidingTableViewCell.swift */,
 				493721DC1FD02D3F008D5DE1 /* SidingTableViewController.swift */,
+				4971D0341FD1185D006D6501 /* StaketnikTableViewController.swift */,
+				4971D0361FD1187E006D6501 /* StaketnikTableViewCell.swift */,
+				4971D0381FD13B52006D6501 /* VodostokTableViewCell.swift */,
+				4971D03A1FD13B68006D6501 /* VodostokTableViewController.swift */,
 			);
 			path = Profnastil;
 			sourceTree = "<group>";
@@ -307,11 +319,13 @@
 			files = (
 				49599F181FBC2F7600F2A104 /* UIViewAnchorPoint.swift in Sources */,
 				491FD6411FC4184800E11CC1 /* productImageView.swift in Sources */,
+				4971D0371FD1187E006D6501 /* StaketnikTableViewCell.swift in Sources */,
 				49599F201FBC3B3700F2A104 /* DescriptionImageViewController.swift in Sources */,
 				490279F81FB2DDF4000A4D90 /* CatalogMenuTableViewCell.swift in Sources */,
 				49FC6E461FCEC268005DE3EE /* StoreDetailTableViewCell.swift in Sources */,
 				49599F1C1FBC2F7600F2A104 /* UIVisualEffectViewX.swift in Sources */,
 				49B539CE1FB9A44F000785E4 /* CherepicaTableViewCell.swift in Sources */,
+				4971D03B1FD13B68006D6501 /* VodostokTableViewController.swift in Sources */,
 				49599F131FBC2F7600F2A104 /* UIButtonX.swift in Sources */,
 				49599F171FBC2F7600F2A104 /* UITextFieldX.swift in Sources */,
 				490279F41FB2D769000A4D90 /* CatalogMenuTableViewController.swift in Sources */,
@@ -323,6 +337,7 @@
 				49599F011FB9B6EA00F2A104 /* CherepicaTableViewController.swift in Sources */,
 				49FC6E421FCE8B1D005DE3EE /* StoreTableViewCell.swift in Sources */,
 				493721DB1FD02D25008D5DE1 /* SidingTableViewCell.swift in Sources */,
+				4971D0351FD1185D006D6501 /* StaketnikTableViewController.swift in Sources */,
 				490279FE1FB3049E000A4D90 /* ProfnastilTableViewController.swift in Sources */,
 				49FC6E441FCEBA55005DE3EE /* StoreDetailViewController.swift in Sources */,
 				49599F191FBC2F7600F2A104 /* UIViewControllerX.swift in Sources */,
@@ -334,6 +349,7 @@
 				49599F1E1FBC37B400F2A104 /* DescriptionOfProductViewController.swift in Sources */,
 				4994A62C1F43011700AB0B90 /* AppDelegate.swift in Sources */,
 				49FC6E3E1FCE87C2005DE3EE /* Store.swift in Sources */,
+				4971D0391FD13B52006D6501 /* VodostokTableViewCell.swift in Sources */,
 				49599F1A1FBC2F7600F2A104 /* UIViewX.swift in Sources */,
 				49FC6E3C1FCE7DC0005DE3EE /* ContactsTableViewController.swift in Sources */,
 				493721DD1FD02D3F008D5DE1 /* SidingTableViewController.swift in Sources */,
@@ -475,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3FS8DHWRXQ;
 				INFOPLIST_FILE = Profnastil/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.comide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,7 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3FS8DHWRXQ;
 				INFOPLIST_FILE = Profnastil/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BR.Profnastil.comide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
